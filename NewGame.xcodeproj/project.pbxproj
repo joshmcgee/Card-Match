@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC31B215179C30D500813924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B214179C30D500813924 /* Foundation.framework */; };
+		AC31B217179C30D500813924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B216179C30D500813924 /* CoreGraphics.framework */; };
+		AC31B219179C30D500813924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B218179C30D500813924 /* UIKit.framework */; };
+		AC31B21B179C30D500813924 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B21A179C30D500813924 /* SpriteKit.framework */; };
+		AC31B221179C30D500813924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC31B21F179C30D500813924 /* InfoPlist.strings */; };
+		AC31B223179C30D500813924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B222179C30D500813924 /* main.m */; };
+		AC31B227179C30D500813924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B226179C30D500813924 /* AppDelegate.m */; };
+		AC31B22A179C30D500813924 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC31B228179C30D500813924 /* Main_iPhone.storyboard */; };
+		AC31B22D179C30D500813924 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC31B22B179C30D500813924 /* Main_iPad.storyboard */; };
+		AC31B230179C30D500813924 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B22F179C30D500813924 /* ViewController.m */; };
+		AC31B233179C30D500813924 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B232179C30D500813924 /* MyScene.m */; };
+		AC31B235179C30D500813924 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B234179C30D500813924 /* Spaceship.png */; };
+		AC31B237179C30D500813924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC31B236179C30D500813924 /* Images.xcassets */; };
+		AC31B23E179C30D500813924 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B23D179C30D500813924 /* XCTest.framework */; };
+		AC31B23F179C30D500813924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B214179C30D500813924 /* Foundation.framework */; };
+		AC31B240179C30D500813924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B218179C30D500813924 /* UIKit.framework */; };
+		AC31B248179C30D500813924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC31B246179C30D500813924 /* InfoPlist.strings */; };
+		AC31B24A179C30D500813924 /* NewGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B249179C30D500813924 /* NewGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC31B241179C30D500813924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC31B209179C30D500813924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC31B210179C30D500813924;
+			remoteInfo = NewGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC31B211179C30D500813924 /* NewGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC31B214179C30D500813924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC31B216179C30D500813924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC31B218179C30D500813924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC31B21A179C30D500813924 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		AC31B21E179C30D500813924 /* NewGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewGame-Info.plist"; sourceTree = "<group>"; };
+		AC31B220179C30D500813924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC31B222179C30D500813924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC31B224179C30D500813924 /* NewGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewGame-Prefix.pch"; sourceTree = "<group>"; };
+		AC31B225179C30D500813924 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC31B226179C30D500813924 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC31B229179C30D500813924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AC31B22C179C30D500813924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AC31B22E179C30D500813924 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC31B22F179C30D500813924 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC31B231179C30D500813924 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		AC31B232179C30D500813924 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		AC31B234179C30D500813924 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		AC31B236179C30D500813924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC31B23C179C30D500813924 /* NewGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC31B23D179C30D500813924 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC31B245179C30D500813924 /* NewGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewGameTests-Info.plist"; sourceTree = "<group>"; };
+		AC31B247179C30D500813924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC31B249179C30D500813924 /* NewGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC31B20E179C30D500813924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC31B217179C30D500813924 /* CoreGraphics.framework in Frameworks */,
+				AC31B219179C30D500813924 /* UIKit.framework in Frameworks */,
+				AC31B21B179C30D500813924 /* SpriteKit.framework in Frameworks */,
+				AC31B215179C30D500813924 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC31B239179C30D500813924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC31B23E179C30D500813924 /* XCTest.framework in Frameworks */,
+				AC31B240179C30D500813924 /* UIKit.framework in Frameworks */,
+				AC31B23F179C30D500813924 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC31B208179C30D500813924 = {
+			isa = PBXGroup;
+			children = (
+				AC31B21C179C30D500813924 /* NewGame */,
+				AC31B243179C30D500813924 /* NewGameTests */,
+				AC31B213179C30D500813924 /* Frameworks */,
+				AC31B212179C30D500813924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC31B212179C30D500813924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B211179C30D500813924 /* NewGame.app */,
+				AC31B23C179C30D500813924 /* NewGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC31B213179C30D500813924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B214179C30D500813924 /* Foundation.framework */,
+				AC31B216179C30D500813924 /* CoreGraphics.framework */,
+				AC31B218179C30D500813924 /* UIKit.framework */,
+				AC31B21A179C30D500813924 /* SpriteKit.framework */,
+				AC31B23D179C30D500813924 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC31B21C179C30D500813924 /* NewGame */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B225179C30D500813924 /* AppDelegate.h */,
+				AC31B226179C30D500813924 /* AppDelegate.m */,
+				AC31B228179C30D500813924 /* Main_iPhone.storyboard */,
+				AC31B22B179C30D500813924 /* Main_iPad.storyboard */,
+				AC31B22E179C30D500813924 /* ViewController.h */,
+				AC31B22F179C30D500813924 /* ViewController.m */,
+				AC31B231179C30D500813924 /* MyScene.h */,
+				AC31B232179C30D500813924 /* MyScene.m */,
+				AC31B234179C30D500813924 /* Spaceship.png */,
+				AC31B236179C30D500813924 /* Images.xcassets */,
+				AC31B21D179C30D500813924 /* Supporting Files */,
+			);
+			path = NewGame;
+			sourceTree = "<group>";
+		};
+		AC31B21D179C30D500813924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B21E179C30D500813924 /* NewGame-Info.plist */,
+				AC31B21F179C30D500813924 /* InfoPlist.strings */,
+				AC31B222179C30D500813924 /* main.m */,
+				AC31B224179C30D500813924 /* NewGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC31B243179C30D500813924 /* NewGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B249179C30D500813924 /* NewGameTests.m */,
+				AC31B244179C30D500813924 /* Supporting Files */,
+			);
+			path = NewGameTests;
+			sourceTree = "<group>";
+		};
+		AC31B244179C30D500813924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B245179C30D500813924 /* NewGameTests-Info.plist */,
+				AC31B246179C30D500813924 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC31B210179C30D500813924 /* NewGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC31B24D179C30D500813924 /* Build configuration list for PBXNativeTarget "NewGame" */;
+			buildPhases = (
+				AC31B20D179C30D500813924 /* Sources */,
+				AC31B20E179C30D500813924 /* Frameworks */,
+				AC31B20F179C30D500813924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewGame;
+			productName = NewGame;
+			productReference = AC31B211179C30D500813924 /* NewGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC31B23B179C30D500813924 /* NewGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC31B250179C30D500813924 /* Build configuration list for PBXNativeTarget "NewGameTests" */;
+			buildPhases = (
+				AC31B238179C30D500813924 /* Sources */,
+				AC31B239179C30D500813924 /* Frameworks */,
+				AC31B23A179C30D500813924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC31B242179C30D500813924 /* PBXTargetDependency */,
+			);
+			name = NewGameTests;
+			productName = NewGameTests;
+			productReference = AC31B23C179C30D500813924 /* NewGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC31B209179C30D500813924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Guest User";
+				TargetAttributes = {
+					AC31B23B179C30D500813924 = {
+						TestTargetID = AC31B210179C30D500813924;
+					};
+				};
+			};
+			buildConfigurationList = AC31B20C179C30D500813924 /* Build configuration list for PBXProject "NewGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC31B208179C30D500813924;
+			productRefGroup = AC31B212179C30D500813924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC31B210179C30D500813924 /* NewGame */,
+				AC31B23B179C30D500813924 /* NewGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC31B20F179C30D500813924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC31B235179C30D500813924 /* Spaceship.png in Resources */,
+				AC31B237179C30D500813924 /* Images.xcassets in Resources */,
+				AC31B22D179C30D500813924 /* Main_iPad.storyboard in Resources */,
+				AC31B22A179C30D500813924 /* Main_iPhone.storyboard in Resources */,
+				AC31B221179C30D500813924 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC31B23A179C30D500813924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC31B248179C30D500813924 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC31B20D179C30D500813924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC31B233179C30D500813924 /* MyScene.m in Sources */,
+				AC31B230179C30D500813924 /* ViewController.m in Sources */,
+				AC31B227179C30D500813924 /* AppDelegate.m in Sources */,
+				AC31B223179C30D500813924 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC31B238179C30D500813924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC31B24A179C30D500813924 /* NewGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC31B242179C30D500813924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC31B210179C30D500813924 /* NewGame */;
+			targetProxy = AC31B241179C30D500813924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC31B21F179C30D500813924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC31B220179C30D500813924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC31B228179C30D500813924 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC31B229179C30D500813924 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AC31B22B179C30D500813924 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC31B22C179C30D500813924 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AC31B246179C30D500813924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC31B247179C30D500813924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC31B24B179C30D500813924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC31B24C179C30D500813924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC31B24E179C30D500813924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewGame/NewGame-Prefix.pch";
+				INFOPLIST_FILE = "NewGame/NewGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC31B24F179C30D500813924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewGame/NewGame-Prefix.pch";
+				INFOPLIST_FILE = "NewGame/NewGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC31B251179C30D500813924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewGame.app/NewGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewGame/NewGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NewGameTests/NewGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC31B252179C30D500813924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewGame.app/NewGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewGame/NewGame-Prefix.pch";
+				INFOPLIST_FILE = "NewGameTests/NewGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC31B20C179C30D500813924 /* Build configuration list for PBXProject "NewGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC31B24B179C30D500813924 /* Debug */,
+				AC31B24C179C30D500813924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC31B24D179C30D500813924 /* Build configuration list for PBXNativeTarget "NewGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC31B24E179C30D500813924 /* Debug */,
+				AC31B24F179C30D500813924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC31B250179C30D500813924 /* Build configuration list for PBXNativeTarget "NewGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC31B251179C30D500813924 /* Debug */,
+				AC31B252179C30D500813924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC31B209179C30D500813924 /* Project object */;
+}
