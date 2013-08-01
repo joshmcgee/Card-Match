@@ -13,6 +13,50 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [UIImage imageNamed:@"card-delta"],
+    [UIImage imageNamed:@"card-gamma"], 
+    [UIImage imageNamed:@"card-lambda"], 
+    [UIImage imageNamed:@"card-omega"], 
+    [UIImage imageNamed:@"card-phi"], 
+    [UIImage imageNamed:@"card-pi"], 
+    [UIImage imageNamed:@"card-psi"], 
+    [UIImage imageNamed:@"card-sigma"], 
+    [UIImage imageNamed:@"card-theta"], 
+    [UIImage imageNamed:@"card-xi"], 
+    
+    self.cardTextures = [NSArray arrayWithObjects:
+                         [UIImage imageNamed:@"card-delta"],
+                         [UIImage imageNamed:@"card-gamma"],
+                         [UIImage imageNamed:@"card-lambda"],
+                         [UIImage imageNamed:@"card-omega"],
+                         [UIImage imageNamed:@"card-phi"],
+                         [UIImage imageNamed:@"card-pi"],
+                         [UIImage imageNamed:@"card-psi"],
+                         [UIImage imageNamed:@"card-sigma"], 
+                         [UIImage imageNamed:@"card-theta"], 
+                         [UIImage imageNamed:@"card-xi"],
+                         nil];
+    
+    
+//    // List all fonts on iPhone
+//    NSArray *familyNames = [[NSArray alloc] initWithArray:[UIFont familyNames]];
+//    NSArray *fontNames;
+//    NSInteger indFamily, indFont;
+//    for (indFamily=0; indFamily<[familyNames count]; ++indFamily)
+//    {
+//        NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
+//        fontNames = [[NSArray alloc] initWithArray:
+//                     [UIFont fontNamesForFamilyName:
+//                      [familyNames objectAtIndex:indFamily]]];
+//        for (indFont=0; indFont<[fontNames count]; ++indFont)
+//        {
+//            NSLog(@"    Font name: %@", [fontNames objectAtIndex:indFont]);
+//        }
+//    }
+    
+    
+    
     return YES;
 }
 							

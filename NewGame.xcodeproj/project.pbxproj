@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0310949D17A80A3100A37AE2 /* CardMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310949A17A8083700A37AE2 /* CardMatchViewController.m */; };
+		031094A017A812DF00A37AE2 /* stoveknob-internet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0310949F17A812DF00A37AE2 /* stoveknob-internet.png */; };
+		0324D35017A841A00062EC4B /* card-notexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0324D34F17A841A00062EC4B /* card-notexture.png */; };
+		0324D35217A85B210062EC4B /* Evanescent.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0324D35117A85B210062EC4B /* Evanescent.ttf */; };
+		03CA1B5C17A9973B00866776 /* StovetopScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B232179C30D500813924 /* StovetopScene.m */; };
 		AC31B215179C30D500813924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B214179C30D500813924 /* Foundation.framework */; };
 		AC31B217179C30D500813924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B216179C30D500813924 /* CoreGraphics.framework */; };
 		AC31B219179C30D500813924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B218179C30D500813924 /* UIKit.framework */; };
@@ -17,14 +22,24 @@
 		AC31B22A179C30D500813924 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC31B228179C30D500813924 /* Main_iPhone.storyboard */; };
 		AC31B22D179C30D500813924 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC31B22B179C30D500813924 /* Main_iPad.storyboard */; };
 		AC31B230179C30D500813924 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B22F179C30D500813924 /* ViewController.m */; };
-		AC31B233179C30D500813924 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B232179C30D500813924 /* MyScene.m */; };
-		AC31B235179C30D500813924 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B234179C30D500813924 /* Spaceship.png */; };
 		AC31B237179C30D500813924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC31B236179C30D500813924 /* Images.xcassets */; };
 		AC31B23E179C30D500813924 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B23D179C30D500813924 /* XCTest.framework */; };
 		AC31B23F179C30D500813924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B214179C30D500813924 /* Foundation.framework */; };
 		AC31B240179C30D500813924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31B218179C30D500813924 /* UIKit.framework */; };
 		AC31B248179C30D500813924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC31B246179C30D500813924 /* InfoPlist.strings */; };
 		AC31B24A179C30D500813924 /* NewGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B249179C30D500813924 /* NewGameTests.m */; };
+		AC31B25C179C375300813924 /* CardSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31B259179C34A500813924 /* CardSpriteNode.m */; };
+		AC31B260179C58BE00813924 /* card-back.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B25F179C58BE00813924 /* card-back.png */; };
+		AC31B26B179C67F400813924 /* card-delta.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B261179C67F400813924 /* card-delta.png */; };
+		AC31B26C179C67F400813924 /* card-gamma.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B262179C67F400813924 /* card-gamma.png */; };
+		AC31B26D179C67F400813924 /* card-lambda.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B263179C67F400813924 /* card-lambda.png */; };
+		AC31B26E179C67F400813924 /* card-omega.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B264179C67F400813924 /* card-omega.png */; };
+		AC31B26F179C67F400813924 /* card-phi.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B265179C67F400813924 /* card-phi.png */; };
+		AC31B270179C67F400813924 /* card-pi.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B266179C67F400813924 /* card-pi.png */; };
+		AC31B271179C67F400813924 /* card-psi.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B267179C67F400813924 /* card-psi.png */; };
+		AC31B272179C67F400813924 /* card-sigma.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B268179C67F400813924 /* card-sigma.png */; };
+		AC31B273179C67F400813924 /* card-theta.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B269179C67F400813924 /* card-theta.png */; };
+		AC31B274179C67F400813924 /* card-xi.png in Resources */ = {isa = PBXBuildFile; fileRef = AC31B26A179C67F400813924 /* card-xi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0310949917A8083700A37AE2 /* CardMatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchViewController.h; sourceTree = "<group>"; };
+		0310949A17A8083700A37AE2 /* CardMatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchViewController.m; sourceTree = "<group>"; };
+		0310949F17A812DF00A37AE2 /* stoveknob-internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stoveknob-internet.png"; sourceTree = "<group>"; };
+		0324D34F17A841A00062EC4B /* card-notexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-notexture.png"; sourceTree = "<group>"; };
+		0324D35117A85B210062EC4B /* Evanescent.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Evanescent.ttf; sourceTree = "<group>"; };
 		AC31B211179C30D500813924 /* NewGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC31B214179C30D500813924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC31B216179C30D500813924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,15 +73,27 @@
 		AC31B22C179C30D500813924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		AC31B22E179C30D500813924 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AC31B22F179C30D500813924 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AC31B231179C30D500813924 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		AC31B232179C30D500813924 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		AC31B234179C30D500813924 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		AC31B231179C30D500813924 /* StovetopScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StovetopScene.h; sourceTree = "<group>"; };
+		AC31B232179C30D500813924 /* StovetopScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StovetopScene.m; sourceTree = "<group>"; };
 		AC31B236179C30D500813924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC31B23C179C30D500813924 /* NewGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC31B23D179C30D500813924 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC31B245179C30D500813924 /* NewGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewGameTests-Info.plist"; sourceTree = "<group>"; };
 		AC31B247179C30D500813924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC31B249179C30D500813924 /* NewGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewGameTests.m; sourceTree = "<group>"; };
+		AC31B258179C34A500813924 /* CardSpriteNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardSpriteNode.h; sourceTree = "<group>"; };
+		AC31B259179C34A500813924 /* CardSpriteNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardSpriteNode.m; sourceTree = "<group>"; };
+		AC31B25F179C58BE00813924 /* card-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-back.png"; sourceTree = "<group>"; };
+		AC31B261179C67F400813924 /* card-delta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-delta.png"; sourceTree = "<group>"; };
+		AC31B262179C67F400813924 /* card-gamma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-gamma.png"; sourceTree = "<group>"; };
+		AC31B263179C67F400813924 /* card-lambda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-lambda.png"; sourceTree = "<group>"; };
+		AC31B264179C67F400813924 /* card-omega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-omega.png"; sourceTree = "<group>"; };
+		AC31B265179C67F400813924 /* card-phi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-phi.png"; sourceTree = "<group>"; };
+		AC31B266179C67F400813924 /* card-pi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-pi.png"; sourceTree = "<group>"; };
+		AC31B267179C67F400813924 /* card-psi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-psi.png"; sourceTree = "<group>"; };
+		AC31B268179C67F400813924 /* card-sigma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-sigma.png"; sourceTree = "<group>"; };
+		AC31B269179C67F400813924 /* card-theta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-theta.png"; sourceTree = "<group>"; };
+		AC31B26A179C67F400813924 /* card-xi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-xi.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +121,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0310949B17A8084300A37AE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B22E179C30D500813924 /* ViewController.h */,
+				AC31B22F179C30D500813924 /* ViewController.m */,
+				0310949917A8083700A37AE2 /* CardMatchViewController.h */,
+				0310949A17A8083700A37AE2 /* CardMatchViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0310949C17A8084B00A37AE2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B231179C30D500813924 /* StovetopScene.h */,
+				AC31B232179C30D500813924 /* StovetopScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0310949E17A812A600A37AE2 /* Internet Picture */ = {
+			isa = PBXGroup;
+			children = (
+				0310949F17A812DF00A37AE2 /* stoveknob-internet.png */,
+			);
+			name = "Internet Picture";
+			sourceTree = "<group>";
+		};
+		031094A117A81A0200A37AE2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0324D35117A85B210062EC4B /* Evanescent.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		AC31B208179C30D500813924 = {
 			isa = PBXGroup;
 			children = (
@@ -123,17 +191,17 @@
 		AC31B21C179C30D500813924 /* NewGame */ = {
 			isa = PBXGroup;
 			children = (
+				031094A117A81A0200A37AE2 /* Fonts */,
 				AC31B225179C30D500813924 /* AppDelegate.h */,
 				AC31B226179C30D500813924 /* AppDelegate.m */,
-				AC31B228179C30D500813924 /* Main_iPhone.storyboard */,
-				AC31B22B179C30D500813924 /* Main_iPad.storyboard */,
-				AC31B22E179C30D500813924 /* ViewController.h */,
-				AC31B22F179C30D500813924 /* ViewController.m */,
-				AC31B231179C30D500813924 /* MyScene.h */,
-				AC31B232179C30D500813924 /* MyScene.m */,
-				AC31B234179C30D500813924 /* Spaceship.png */,
 				AC31B236179C30D500813924 /* Images.xcassets */,
+				AC31B22B179C30D500813924 /* Main_iPad.storyboard */,
+				AC31B228179C30D500813924 /* Main_iPhone.storyboard */,
+				AC31B25D179C56ED00813924 /* Graphics */,
+				AC31B253179C314400813924 /* Objects */,
+				0310949C17A8084B00A37AE2 /* Scenes */,
 				AC31B21D179C30D500813924 /* Supporting Files */,
+				0310949B17A8084300A37AE2 /* View Controllers */,
 			);
 			path = NewGame;
 			sourceTree = "<group>";
@@ -165,6 +233,35 @@
 				AC31B246179C30D500813924 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC31B253179C314400813924 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B258179C34A500813924 /* CardSpriteNode.h */,
+				AC31B259179C34A500813924 /* CardSpriteNode.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		AC31B25D179C56ED00813924 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				AC31B25F179C58BE00813924 /* card-back.png */,
+				AC31B261179C67F400813924 /* card-delta.png */,
+				AC31B262179C67F400813924 /* card-gamma.png */,
+				AC31B263179C67F400813924 /* card-lambda.png */,
+				0324D34F17A841A00062EC4B /* card-notexture.png */,
+				AC31B264179C67F400813924 /* card-omega.png */,
+				AC31B265179C67F400813924 /* card-phi.png */,
+				AC31B266179C67F400813924 /* card-pi.png */,
+				AC31B267179C67F400813924 /* card-psi.png */,
+				AC31B268179C67F400813924 /* card-sigma.png */,
+				AC31B269179C67F400813924 /* card-theta.png */,
+				AC31B26A179C67F400813924 /* card-xi.png */,
+				0310949E17A812A600A37AE2 /* Internet Picture */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +340,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC31B235179C30D500813924 /* Spaceship.png in Resources */,
+				AC31B273179C67F400813924 /* card-theta.png in Resources */,
+				AC31B26F179C67F400813924 /* card-phi.png in Resources */,
+				AC31B270179C67F400813924 /* card-pi.png in Resources */,
 				AC31B237179C30D500813924 /* Images.xcassets in Resources */,
+				AC31B260179C58BE00813924 /* card-back.png in Resources */,
+				AC31B274179C67F400813924 /* card-xi.png in Resources */,
+				AC31B26E179C67F400813924 /* card-omega.png in Resources */,
+				AC31B26D179C67F400813924 /* card-lambda.png in Resources */,
+				AC31B271179C67F400813924 /* card-psi.png in Resources */,
+				AC31B26C179C67F400813924 /* card-gamma.png in Resources */,
+				0324D35017A841A00062EC4B /* card-notexture.png in Resources */,
+				031094A017A812DF00A37AE2 /* stoveknob-internet.png in Resources */,
+				AC31B26B179C67F400813924 /* card-delta.png in Resources */,
 				AC31B22D179C30D500813924 /* Main_iPad.storyboard in Resources */,
 				AC31B22A179C30D500813924 /* Main_iPhone.storyboard in Resources */,
 				AC31B221179C30D500813924 /* InfoPlist.strings in Resources */,
+				0324D35217A85B210062EC4B /* Evanescent.ttf in Resources */,
+				AC31B272179C67F400813924 /* card-sigma.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +376,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC31B233179C30D500813924 /* MyScene.m in Sources */,
+				0310949D17A80A3100A37AE2 /* CardMatchViewController.m in Sources */,
+				AC31B25C179C375300813924 /* CardSpriteNode.m in Sources */,
 				AC31B230179C30D500813924 /* ViewController.m in Sources */,
 				AC31B227179C30D500813924 /* AppDelegate.m in Sources */,
+				03CA1B5C17A9973B00866776 /* StovetopScene.m in Sources */,
 				AC31B223179C30D500813924 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +596,7 @@
 				AC31B24F179C30D500813924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC31B250179C30D500813924 /* Build configuration list for PBXNativeTarget "NewGameTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +605,7 @@
 				AC31B252179C30D500813924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
